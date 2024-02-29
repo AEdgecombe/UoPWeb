@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HIIT Workout Builder</title>
-  <link rel="stylesheet" href="styles.css">
+    <title>HIIT Workout App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-  <div id="workout">
-    <form id="activity-form">
-      <input type="text" id="name" placeholder="Activity name" required>
-      <textarea id="description" placeholder="Activity description" required></textarea>
-      <input type="number" id="duration" placeholder="Duration in seconds" required>
-      <button type="submit">Add Activity</button>
-    </form>
+    <h1>HIIT Workout App</h1>
 
-    <div id="activities"></div>
+    <div id="workout-builder">
+        <h2>Build a custom HIIT workout</h2>
+        <form id="activity-form">
+            <label for="activity-name">Activity Name:</label>
+            <input type="text" id="activity-name" name="activity-name">
+            <label for="activity-description">Activity Description:</label>
+            <input type="text" id="activity-description" name="activity-description">
+            <label for="activity-duration">Activity Duration:</label>
+            <input type="number" id="activity-duration" name="activity-duration">
+            <button type="submit">Add Activity</button>
+        </form>
+    </div>
 
-    <button id="start-workout">Start Workout</button>
-  </div>
-
-  <script src="script.js"></script>
+    <div id="workout-display">
+        <h2>Your Workout</h2>
+        <ul id="activity-list">
+            <!-- Activities will be added here -->
+        </ul>
+        <button id="start-workout">Start Workout</button>
+        <button id="pause-workout">Pause Workout</button>
+        <button id="stop-workout">Stop Workout</button>
+    </div>
 </body>
 </html>
