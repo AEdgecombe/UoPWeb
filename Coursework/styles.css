@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #workout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #activity-form {
+    margin-bottom: 20px;
+  }
+  
+  #activity-form input,
+  #activity-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #activity-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #activity-form button:hover {
+    background-color: #45a049;
+  }
+  
+  #activities {
+    margin-bottom: 20px;
+  }
+  
+  .activity {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #start-workout {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #start-workout:hover {
+    background-color: #007B9E;
+  }

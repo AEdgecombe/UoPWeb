@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIIT Workout Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="workout">
+    <form id="activity-form">
+      <input type="text" id="name" placeholder="Activity name" required>
+      <textarea id="description" placeholder="Activity description" required></textarea>
+      <input type="number" id="duration" placeholder="Duration in seconds" required>
+      <button type="submit">Add Activity</button>
+    </form>
+
+    <div id="activities"></div>
+
+    <button id="start-workout">Start Workout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
