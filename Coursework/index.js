@@ -20,13 +20,13 @@ const Activity = {
 
 /* Function section
 
- There needs to be a collection of Activites and Workouts stored on the server
- The user should be able to add Activities to the server collection
- The user should be able to add Workouts to the server collection
- Timer function
- Function for templates
- Remove anything that isn't selected template
- Include button to naviagte to the next template
- Repeat for relevant templates
+There needs to be a collection of Activites and Workouts stored on the server
+The user should be able to add Activities to the server collection
+The user should be able to add Workouts to the server collection
+Timer function
+Function for templates
+Remove anything that isn't selected template
+Include button to naviagte to the next template
+Repeat for relevant templates
 
 */
