@@ -1,5 +1,6 @@
 <!doctype html>
 <meta charset=utf-8>
+<!-- Link to css I haven't done yet, this is for UI/UX marks-->
 <script defer src="index.js"></script>
 <title>HIIT App</title>
 
@@ -7,9 +8,35 @@
 
 <!-- Should allow user to input new activity object-->
 <button id="Create">Create Activity</button>
-<!-- Starts a workout object-->
 <button id="Start">Start Workout</button>
-<!--Pauses workout object-->
 <button id="Pause">Pause Workout</button>
-<!-- Stops workout object -->
 <button id="Stop">Stop Workout</button>
+
+<!-- Create Templates for each screen-->
+<!-- Load Home Screen body onload="homeScreen"-->
+
+<!--
+    Matt explaining single page apps
+    Load the example and explore the code
+    one index html page, header main footer, template hidden class css
+    content of main to change on button click nav, show/hide
+    class change on button click 
+    store user info on server
+    login status stored on client
+    http is stateless, don't use state on server
+    send id of user so server sends back details
+    AUTH for extra marks
+    users js with user data and fucntions with retrieve and update info, has static and
+    serves client api roots
+    push url onto browser so can use back button, no request to server
+    only request on enter push 
+    functions to get handles on elements stored in array of references
+    building a framework for a single page app
+    screens with unique names
+    using datset not id because id can be the same on two elements
+    won't have to use querySelector will be in array
+    idea of building an app from blank to content based on how many app pages
+    build content is called on blank pages, pages should be blank and then content function
+    called
+    screens with inc files for each screen
+-->
